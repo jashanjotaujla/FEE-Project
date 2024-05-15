@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>project</title>
+        <link rel="stylesheet" type="text/css" href="projecthtml.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" >
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="elearnig5.png"></a>
+                <div class="nav-links">
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="aboutproject.html">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="loginproject.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+          
+            
+<div class="text-box">
+    <h1>World's Biggest Learning Platform</h1>
+    <p>Making website is now one of the easiest thing in the worls. You 
+        just need to learn HTML , CSS ,<br>  Javascript and you are good to go.
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+        </section>
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat minus aliquid laboriosam numquam, tempora deserunt nesciunt itaque dignissimos, rem temporibus delectus nulla? Molestias molestiae assumenda consectetur repudiandae corrupti maxime!</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>HTML</h3>
+                    <p>HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages.
+                        It is one of the most basic building blocks of every website, so it's crucial to learn if you want to have a career in web development.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>CSS</h3>
+                    <p>CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML.</p>
+                </div>
+                <div class="course-col">
+                    <h3>JAVASCRIPT</h3>
+                    <p>JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="course2">
+            <h1>Course Details</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="cousre-box">
+
+                
+                
+                <div class="courses">
+                    <img src="javascript.jpg">
+                    <div class="details">
+                        <span>Updated 21/8/21</span>
+                        <h6>JavaScript Beginners Course</h6>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(239)</span>
+                        </div>
+                    </div>
+                    <div class="cost">
+                        $49.99
+                    </div>
+                </div>
+
+
+                <div class="courses">
+                    <img src="cssproject.jpeg">
+                    <div class="details">
+                        <span>Updated 15/4/21</span>
+                        <h6>CSS Full Course</h6>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(239)</span>
+                        </div>
+                    </div>
+                    <div class="cost">
+                        $49.99
+                    </div>
+                </div>
+
+
+                <div class="courses">
+                    <img src="html.jpg">
+                    <div class="details">
+                        <span>Updated 14/7/22</span>
+                        <h6>HTML</h6>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(239)</span>
+                        </div>
+                    </div>
+                    <div class="cost">
+                        $39.99
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section id="features">
+            <h1> Awesome Features</h1>
+            <p>Replenish man have thing gathering lights yielding shall you</p>
+            <div class="fea-base">
+                <div class="fea-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>scholarship Facility</h3>
+                    <p>one make creepth, man bearing theira firmament wont't great heaven</p>
+
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Online Course</h3>
+                    <p>one make creepth, man bearing theira firmament wont't great heaven</p>
+
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-award"></i>
+                    <h3>Gloabl certification</h3>
+                    <p>one make creepth, man bearing theira firmament wont't great heaven</p>
+
+                </div>
+            </div>
+            
+        </section>
+<br><br><br><br>
+
+        <section id="registration">
+            <div class="reminder">
+                <p>Get 100 online courses for free</p>
+                <h1>Register to get it</h1>
+                <div class="time">
+                    <div class="date">
+                        18<br> Days
+                    </div>
+                    <div class="date">
+                        23<br> hours
+                    </div>
+                    <div class="date">
+                        06<br> minutes
+                    </div>
+                    <div class="date">
+                        58<br> seconds
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="form">
+                <h3>Create Free Account Now!</h3>
+                <input type="text" placeholder="Name" name="" id="">
+                <input type="text" placeholder="Email Address" name="" id="">
+                <input type="text" placeholder="Phone Number" name="" id="">
+                <div class="btn">
+    
+                    <a class="yellow" href="#">Submit Form</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="experts">
+            <h1>Community Experts</h1>
+            <p>Replenish man have thing gathering lights yielding shall you</p>
+            <div class="expert-box">
+                <div class="profile">
+                    <img src="experttech1.jpeg" alt="">
+                    <h6>Ema Irnik</h6>
+                    <p>javaScript Expert</p>
+                    <div class="pro-links">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="experttech2.jpeg" alt="">
+                    <h6>Reverend Thomas</h6>
+                    <p>HTML Expert</p>
+                    <div class="pro-links">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Deepak-Kumar.jpg" alt="">
+                    <h6>Ros Ballaster</h6>
+                    <p>CSS Expert</p>
+                    <div class="pro-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i> </a>
+                        <a href="https://www.researchgate.net/profile/Deepak-Kumar-433"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            
+
+        </section>
+
+
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Marketing Service</li>
+                <li>Terms of Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Power Tools</h3>
+                <li>Jobs</li>
+                <li>Marketing Websites</li>
+                <li>Marketing Services</li>
+                <li>Terms of Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Marketing Service</li>
+                <li>Terms of Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Guides</h3>
+                <li>Experts</li>
+                <li>Managed website</li>
+                <li>Marketing Service</li>
+                <li>Terms of Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. we only send promo offers, </p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">SUBSCRIBE </a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>Copyright 2021 All rights reserved | This template is made by elearning</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+               
+            </div>
+        </footer>
+    </body>
+
+</html> 

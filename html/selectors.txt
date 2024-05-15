@@ -1,0 +1,93 @@
+selectors:
+selectors-css selsectors are used to find the html elements u want to style
+
+<head>
+Body
+<div class="abc">
+</div>
+</body>
+
+<style>
+.abc
+{
+color:red;font-family;
+}
+
+ five Types of slecetors:
+1) simple selector
+eg=name,id,class
+
+2)combination selectors
+eg:
+<div class="a"></div>
+<div id="1"></div>
+<div name="abc"></div>
+
+<style>
+.abc,#1,abc
+{
+color:red;
+bavckground-color:black;
+}
+ 
+3)pseudo selectors = it select element based on state
+4)pseudo element selector 
+5)attribute selector
+6)universal selector
+
+*
+{
+
+}
+
+
+SELECTORS SPECIVICITY:when more than one set css rule the browser will have to decide which specific set is to be applied to the elemnt . the rules the browser follows are known as specivicity
+1)inline css
+= it has highest specivicity will override all other selectors including external css and internal css.
+2)internal css=internal style sheet that are defined with in html have higher specivicity than external css
+
+
+priorities:
+1)inline
+2)identifiers=id,classes
+3)classes,pseudo classes and attributes
+4)pseudo class elements
+
+
+display property specify the display behaviour of an element . there are four types of display property
+1) none
+2) inline
+3) block
+4) inline-block
+
+
+BORDER STYLES:
+1)dotted 
+2)dashed
+3)solid
+4)double
+5)grrove
+6)ridge
+7)inset
+8)outset
+9)none
+10)hidden
+
+  
+aside = it represent a portion of document whose content is related to document main content . asides are frequently represented  as slide bars or call out boxes
+
+min max operation
+position property=it defines the type of positioning method used for an element . there are four types of position :
+1)static
+2)fixed
+=fixed text is positioned related to the browser window and does not move even if you scroll the window
+3)relative
+=it used to set the element related to its normal position
+4)absolute : best in four
+=with the absolute positioning u can place the element anywhere in the page
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    width: 100;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 12px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.signup a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    font-weight: bold ;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid black ;
+} 

@@ -1,0 +1,28 @@
+JAVA SCRIPT
+it is a light weight cross platform single threaded and interpreted programming language it is known as scripting language fro weboages js can be used for client side as well as for server 
+side development
+it contains a standard set of object like arrays,date and core set of language element like operators control structures and statement 
+in internal javascript we can add javascript directly to our html file by writting the code inside the script tag . the script tag can be either olaved inside the head or body tag according to rquiremnts
+in ecternal js we can write js code in another files having an extension.jss and than link this file inside head tag of html file in which we want to add the scout
+
+
+variables in js:
+1)automatically
+2)constant
+3)let
+
+Null in JavaScript means an empty value and is also a primitive type in JavaScript. The variable which has been assigned as null contains no value. Undefined, on the other hand, means the variable has been declared, but its value has not been assigned
+
+type coercion = Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. This includes conversion from Number to String, String to Number, Boolean to Number etc. when different types of operators are applied to the values
+
+
+Invoking a JavaScript Function
+The code inside a function is not executed when the function is defined.
+The code inside a function is executed when the function is invoked.
+It is common to use the term "call a function" instead of "invoke a function".
+It is also common to say "call upon a function", "start a function", or "execute a function".
+In this tutorial, we will use invoke, because a JavaScript function can be invoked without being called.
+
+JavaScript Hoisting
+Hoisting is JavaScript's default behavior of moving declarations to the top.
+

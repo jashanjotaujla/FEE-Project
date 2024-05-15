@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        background-color: yellow;
+        color: red;
+    }
+
+.heading{
+    
+    background-color: red;
+    text-align: center;
+}    
+.form-group {
+    text-align: center;
+ margin-bottom: 15px;
+}
+.form-error {
+ color: red;
+}
+.center-button {
+ display: block;
+ margin: 0 auto;
+}
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ text-align: center;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown:hover .dropbtn {
+ background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+    <div class="heading">
+    <h1>WELCOME TO CUP</h1>
+    </div>
+<form id="form" action="submit">
+ <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span id="nameError" class="form-error"></span>
+ </div>
+ <div class="form-group">
+    <label for="rollno">Roll No:</label>
+    <input type="text" id="rollno" name="rollno" required>
+    <span id="rollnoError" class="form-error"></span>
+ </div>
+ <div class="form-group">
+    <label for="section">Section:</label>
+    <input type="text" id="section" name="section" required>
+    <span id="sectionError" class="form-error"></span>
+ </div>
+ <div class="dropdown">
+    <button class="dropbtn">Subjects</button>
+    <div class="dropdown-content">
+       <a href="#">FFE</a>
+       <a href="#">DECA</a>
+       <a href="#">PYHTON LAB</a>
+       <a href="#">PYTHON THEORY</a>
+    </div>
+   </div>
+
+ <button type="submit" class="center-button">Submit</button>
+</form>
+
+<script>
+document.getElementById('form').addEventListener('submit', function(event) {
+ event.preventDefault();
+  
+ let name = document.getElementById('name').value;
+ let rollno = document.getElementById('rollno').value;
+ let section = document.getElementById('section').value;
+  
+ let valid = true;
+  
+ if(name === '') {
+    document.getElementById('nameError').textContent = 'Name is required';
+    valid = false;
+ } else {
+    document.getElementById('nameError').textContent = '';
+ }
+  
+ if(rollno === '') {
+    document.getElementById('rollnoError').textContent = 'Roll No is required';
+    valid = false;
+ } else {
+    document.getElementById('rollnoError').textContent = '';
+ }
+  
+ if(section === '') {
+    document.getElementById('sectionError').textContent = 'Section is required';
+    valid = false;
+ } else {
+    document.getElementById('sectionError').textContent = '';
+ }
+  
+ if(valid) {
+    this.submit();
+ }
+});
+</script>
+
+</body>
+</html>

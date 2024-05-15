@@ -1,0 +1,1 @@
+namespace is a system that has a unique name called each and every object in python . an object might be a variable or a method python itself maintain a name in the form of pyhthon dictionary.
